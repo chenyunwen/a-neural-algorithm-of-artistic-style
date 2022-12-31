@@ -9,8 +9,8 @@ Change the parameter in `src/settings.py`.
 - change input style image:
     in `src/settings.py`, and change `STYLE_PATH = '../path/to/style'`
 - chaneg input content:
-    for image, in `src/settings.py`, and change `CONTENT_PATH = '../path/to/content'`
-    for video, in `src/settings.py`, and change `CONTENT_PATH_VIDEO = '../path/to/content_video'`
+    - for image, in `src/settings.py`, and change `CONTENT_PATH = '../path/to/content'`
+    - for video, in `src/settings.py`, and change `CONTENT_PATH_VIDEO = '../path/to/content_video'`
 
 ### Run this code:
 - For image style transfer:
