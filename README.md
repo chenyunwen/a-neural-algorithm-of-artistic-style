@@ -27,14 +27,10 @@ python src/main_video.py
     for video, in `src/settings.py`, and change `OUTPUT_PATH_VIDEO = '../path/to/result'`
 
 ## Our result
-<img src ="output\Gatys_Arles_S256_E500_chicken.png" width="256px" />
-<img src ="output\Gatys_Arles_S256_E500_image_1.png" width="256px" />
-<img src ="output\Gatys_starry-night_S256_E500_chicken.png" width="256px" />
-<img src ="output\Gatys_starry-night_S256_E500_image_1.png" width="256px" />
-<img src ="output\Gatys_the-muse_S256_E500_chicken.png" width="256px" />
-<img src ="output\Gatys_the-muse_S256_E500_image_1.png" width="256px" />
-<img src ="output\Gatys_Under-the-Wave_S256_E500_chicken.png" width="256px" />
-<img src ="output\Gatys_Under-the-Wave_S256_E500_image_1.png" width="256px" />
+<img src ="output\Gatys_Arles_S256_E500_chicken.png" width="256px" /><img src ="output\Gatys_Arles_S256_E500_image_1.png" width="256px" />
+<img src ="output\Gatys_starry-night_S256_E500_chicken.png" width="256px" /><img src ="output\Gatys_starry-night_S256_E500_image_1.png" width="256px" />
+<img src ="output\Gatys_the-muse_S256_E500_chicken.png" width="256px" /><img src ="output\Gatys_the-muse_S256_E500_image_1.png" width="256px" />
+<img src ="output\Gatys_Under-the-Wave_S256_E500_chicken.png" width="256px" /><img src ="output\Gatys_Under-the-Wave_S256_E500_image_1.png" width="256px" />
 
 
 **The following content comes from the original Repo.**
