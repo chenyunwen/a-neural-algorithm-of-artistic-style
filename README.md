@@ -32,7 +32,7 @@ We only show the image transfer result.
 
 - input content image
 
-<img src ="input\image_0.jpg" height="128px" /> <img src ="input\image_1.jpg" height="128px" width="170px" />
+<img src ="input\image_0.jpg" height="128px" /> <img src ="input\image_1.jpg" width="170px" />
 
 - input style
 
