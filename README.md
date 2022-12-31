@@ -1,5 +1,30 @@
 # A Neural Algorithm of Artistic Style
 
+## What we did?
+1. Try to use it on video style transfer.
+2. Calculate execution time.
+
+## How to use?
+Change the parameter in `src/settings.py`.
+- change input style image:
+    in `src/settings.py`, and change `STYLE_PATH = '../path/to/style'`
+- chaneg input content:
+    in `src/settings.py`, and change `CONTENT_PATH = '../path/to/content'`
+
+Run this code:
+- For image style transfer:
+```
+python src/main.py
+```
+- For video style transfer:
+```
+python src/main_video.py
+```
+
+## Our result
+
+**The following content comes from the original Repo.**
+
 Source: https://arxiv.org/pdf/1508.06576.pdf  
 Authors: Leon A. Gatys, Alexander S. Ecker, Matthias Bethge
 
