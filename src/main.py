@@ -1,3 +1,4 @@
+import time
 import model
 import utils
 import matplotlib.pyplot as plt
@@ -10,11 +11,13 @@ from settings import DEVICE, EPOCHS, STYLE_PATH, CONTENT_PATH, OUTPUT_PATH, STYL
 
 style_image = utils.load_image(STYLE_PATH)
 content_image = utils.load_image(CONTENT_PATH)
+print("content_image: ", content_image.size())
 
 # Load Pretrained VGG and Normalization Tensors
 cnn = models.vgg19(pretrained=True).features.to(DEVICE).eval()
 cnn_normalization_mean = torch.tensor([0.485, 0.456, 0.406]).to(DEVICE)
 cnn_normalization_std = torch.tensor([0.229, 0.224, 0.225]).to(DEVICE)
+
 
 # Bootstrap our target image
 target_image = content_image.clone()
@@ -27,6 +30,9 @@ model, style_losses, content_losses = model.style_cnn(cnn, DEVICE,
 optimizer = optim.LBFGS([target_image.requires_grad_()])
 
 # Run style transfer
+
+start = time.time()
+
 run = [0]
 while run[0] < EPOCHS:
 	# Closure function is needed for LBFGS algorithm
@@ -59,6 +65,9 @@ while run[0] < EPOCHS:
 		return style_score + content_score
 
 	optimizer.step(closure)
+
+stop = time.time()
+print(f"Training time: {stop - start}s")
 
 target_image.data.clamp_(0, 1)
 

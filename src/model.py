@@ -40,6 +40,7 @@ class Normalization(nn.Module):
 	def forward(self, image):
 		return (image - self.mean) / self.std
 
+
 # Create our model with our loss layers
 def style_cnn(cnn, device, normalization_mean, normalization_std, style_image, content_image):
 	# Insert loss layers after these desired layers
