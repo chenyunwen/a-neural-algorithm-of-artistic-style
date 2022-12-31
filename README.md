@@ -5,6 +5,11 @@
 2. Calculate execution time.
 
 ## How to use?
+
+Environment we use:
+- [Python 3.10.8]
+- [PyTorch 1.13.1]
+
 Change the parameter in `src/settings.py`.
 - change input style image:
     in `src/settings.py`, and change `STYLE_PATH = '../path/to/style'`
