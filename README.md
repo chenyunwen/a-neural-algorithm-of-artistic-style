@@ -23,8 +23,9 @@ python src/main_video.py
 ```
 
 ### Output files:
-for image, in `src/settings.py`, and change `OUTPUT_PATH = '../path/to/result'`
-for video, in `src/settings.py`, and change `OUTPUT_PATH_VIDEO = '../path/to/result'`
+- for image, in `src/settings.py`, and change `OUTPUT_PATH = '../path/to/result'`
+
+- for video, in `src/settings.py`, and change `OUTPUT_PATH_VIDEO = '../path/to/result'`
 
 ## Our result
 We only show the image transfer result.
