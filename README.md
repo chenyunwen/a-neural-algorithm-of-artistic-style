@@ -32,7 +32,7 @@ We only show the image transfer result.
 
 - input content image
 
-<img src ="input\image_0.jpg" height="128px" /> <img src ="input\image_1.jpg" width="170px" />
+<img src ="input\image_0.jpg" height="128px" /> <img src ="input\image_1.jpg" height="128px"/>
 
 - input style
 
@@ -40,9 +40,9 @@ We only show the image transfer result.
 
 - Result
 
-<img src ="output\Gatys_the-muse_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_the-muse_S256_E500_image_1.png" width="128px" /> <img src ="output\Gatys_Under-the-Wave_S256_E500_chicken.png" width="128px" /><img src ="output\Gatys_Under-the-Wave_S256_E500_image_1.png" width="128px" />
+<img src ="output\Gatys_the-muse_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_the-muse_S256_E500_image_1.png" width="170px" height="128px" /> <img src ="output\Gatys_Under-the-Wave_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_Under-the-Wave_S256_E500_image_1.png" width="170px" height="128px" />
 
-<img src ="output\Gatys_Arles_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_Arles_S256_E500_image_1.png" width="128px" /> <img src ="output\Gatys_starry-night_S256_E500_chicken.png" width="128px" /><img src ="output\Gatys_starry-night_S256_E500_image_1.png" width="128px" />
+<img src ="output\Gatys_Arles_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_Arles_S256_E500_image_1.png" width="170px" height="128px" /> <img src ="output\Gatys_starry-night_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_starry-night_S256_E500_image_1.png" width="170px" height="128px" />
 
 ## The following content comes from the original Repo.
 
