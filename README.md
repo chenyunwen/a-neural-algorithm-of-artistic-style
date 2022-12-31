@@ -29,10 +29,10 @@ python src/main_video.py
 ## Our result
 
 - input content image
-<img src ="input\image_0.png" width="128px" /> <img src ="input\image_0.png" width="128px" />
+<img src ="input\image_0.jpg" hight="128px" /> <img src ="input\image_0.jpg" hight="128px" />
 
 - input style
-<img src ="input\the-muse.jpg" width="128px" /> <img src ="input\Under-the-Wave-off-Kanagawa.jpg" width="128px" /> <img src ="input\starry_night.jpg" width="128px" /> <img src ="input\Arles.png" width="128px" />
+<img src ="input\the-muse.jpg" hight="128px" /> <img src ="input\Under-the-Wave-off-Kanagawa.jpg" hight="128px" /> <img src ="input\starry_night.jpg" hight="128px" /> <img src ="input\Arles.jpg" hight="128px" />
 
 <img src ="output\Gatys_the-muse_S256_E500_chicken.png" width="128px" /> <img src ="output\Gatys_the-muse_S256_E500_image_1.png" width="128px" /> <img src ="output\Gatys_Under-the-Wave_S256_E500_chicken.png" width="128px" /><img src ="output\Gatys_Under-the-Wave_S256_E500_image_1.png" width="128px" />
 
