@@ -9,9 +9,10 @@ Change the parameter in `src/settings.py`.
 - change input style image:
     in `src/settings.py`, and change `STYLE_PATH = '../path/to/style'`
 - chaneg input content:
-    in `src/settings.py`, and change `CONTENT_PATH = '../path/to/content'`
+    for image, in `src/settings.py`, and change `CONTENT_PATH = '../path/to/content'`
+    for video, in `src/settings.py`, and change `CONTENT_PATH_VIDEO = '../path/to/content_video'`
 
-Run this code:
+### Run this code:
 - For image style transfer:
 ```
 python src/main.py
@@ -21,7 +22,13 @@ python src/main.py
 python src/main_video.py
 ```
 
+### Output files:
+    for image, in `src/settings.py`, and change `OUTPUT_PATH = '../path/to/result'`
+    for video, in `src/settings.py`, and change `OUTPUT_PATH_VIDEO = '../path/to/result'`
+
 ## Our result
+    <img src ="output\Gatys_Arles_S256_E500_chicken.png" width="256px" />
+    <img src ="output\Gatys_Arles_S256_E500_image_1.png" width="256px" />
 
 **The following content comes from the original Repo.**
 
