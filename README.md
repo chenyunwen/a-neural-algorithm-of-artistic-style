@@ -1,5 +1,7 @@
 # A Neural Algorithm of Artistic Style
 
+Reference repository: https://github.com/chenyunwen/a-neural-algorithm-of-artistic-style.git
+
 ## What we did?
 1. Try to use it on video style transfer.
 2. Calculate execution time.
