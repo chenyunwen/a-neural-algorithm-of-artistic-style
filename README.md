@@ -6,7 +6,7 @@
 
 ## How to use?
 
-Environment we use:
+Environment we used:
 - [Python 3.10.8]
 - [PyTorch 1.13.1]
 
